@@ -80,7 +80,7 @@ Clinic_Management_System/
 2. **Backend Setup**:
 cd Server
 dotnet restore
-dotnet ef database update  # Apply migrations
+dotnet ef database update  ### Apply migrations
 dotnet run
 
 3. **Frontend Setup**:
@@ -90,5 +90,5 @@ npm start
 
 🤝 Team
 Role	Contributors
-Frontend	Rodina Tharwat, Ziad Yasser, Farah Hossam
+Frontend Rodina Tharwat, Ziad Yasser, Farah Hossam
 Backend	Abdelrahman Ibrahim, Ganna Wessam
