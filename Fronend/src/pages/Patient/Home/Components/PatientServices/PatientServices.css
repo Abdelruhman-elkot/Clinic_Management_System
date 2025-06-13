@@ -1,0 +1,21 @@
+.card-hover-blue {
+    transition: all 0.4s ease;
+}
+
+.card-hover-blue:hover {
+    /* color: white; */
+    transform: translateY(-10px) scale(1.05); 
+    /* filter: drop-shadow(0 0 10px white); */
+    cursor: pointer;
+}
+
+.card-hover-blue:hover h5,
+.card-hover-blue:hover .text-muted, 
+.card-hover-blue:hover .text-orange, 
+.card-hover-blue:hover .text-primary {
+    /* color: white !important; */
+}
+
+.text-orange {
+    color: orange !important;
+  }

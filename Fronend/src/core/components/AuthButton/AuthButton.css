@@ -1,0 +1,15 @@
+.btn.btn-secondary.w-100 {
+    /* background :linear-gradient(to right, #0097B8, #0084A1, #01748E, #00586B, #014C5D, #023B47); */
+    background-color: #0084A1;
+    border-radius: 40px;
+}
+
+.btn.btn-outline-secondary.w-100 {
+    border-radius: 40px;
+    border: 1px solid #0084A1;
+}
+
+.btn.btn-outline-secondary.w-100:hover {
+    background :linear-gradient(to right, #0097B8, #0084A1, #01748E, #00586B, #014C5D, #023B47);
+
+}

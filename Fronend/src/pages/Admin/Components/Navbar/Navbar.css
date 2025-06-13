@@ -1,0 +1,60 @@
+.navbar-gradient {
+     background: linear-gradient(90deg, #0d47a1, #42a5f5);
+    color: white; /* Make text white for better contrast */
+  }
+  
+  .navbar .navbar-brand, .navbar .nav-link, .navbar .btn {
+    color: white;
+  }
+  
+  .navbar .nav-link:hover, .navbar .btn:hover {
+    color: #ff6347; /* Optional hover effect */
+  }
+  
+  /* Remove the default button styles */
+.btn-logout {
+    background: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0; /* Remove padding around the icon */
+    cursor: pointer;
+  }
+  
+  /* Style for the icon */
+  .logout-icon {
+    font-size: 2rem; /* Make the icon bigger */
+    color: white; /* Icon color (can change based on your preference) */
+  }
+  
+  /* Optional: Change icon color on hover */
+  .btn-logout:hover .logout-icon {
+    color: #ff6347; /* Example hover color */
+  }
+  .ambulance-icon {
+    font-size: 2.0rem;
+    color: white; /* Adjust color for contrast */
+  }
+  .typing-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Courier New', monospace; /* Typewriter feel */
+    display: flex;
+  }
+  
+  /* Optional: blinking cursor */
+  .typing-title::after {
+    content: '|';
+    animation: blink 1s infinite;
+    color: white;
+    margin-left: 4px;
+  }
+  
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
+
+  

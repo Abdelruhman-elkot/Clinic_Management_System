@@ -1,0 +1,36 @@
+.title {
+    font-weight: 900;
+    font-size: 34px;
+    font-family: 'Greycliff CF', sans-serif;
+  }
+  
+  @media (max-width: 576px) {
+    .title {
+      font-size: 32px;
+    }
+  
+    .w-sm-auto {
+      width: 100% !important;
+    }
+  }
+  
+  .mobileImage {
+    display: block;
+  }
+  
+  @media (min-width: 768px) {
+    .mobileImage {
+      display: none;
+    }
+  }
+  
+  .desktopImage {
+    display: none;
+  }
+  
+  @media (min-width: 768px) {
+    .desktopImage {
+      display: block;
+    }
+  }
+  

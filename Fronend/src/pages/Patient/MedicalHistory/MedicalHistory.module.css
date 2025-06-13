@@ -1,0 +1,110 @@
+.topSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1rem 1.5rem;
+  }
+  
+  .profileInfo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .appointmentContainer {
+    background: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    margin-left: 30px;
+  }
+  
+  .appointmentHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .newAppointmentBtn {
+    background: #7a5af8;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+  }
+  
+  .cardGroup {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  .card {
+    text-align: center;
+    flex: 1;
+  }
+  
+  .dateBadge {
+    border-radius: 12px;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .dateDay {
+    font-size: 20px;
+  }
+  
+  .dateMonth {
+    font-size: 14px;
+  }
+  
+  /* Color themes */
+  .purple {
+    background-color: #7a5af8;
+  }
+  
+  .green {
+    background-color: #22c55e;
+  }
+  
+  .yellow {
+    background-color: #fbbf24;
+  }
+  
+  .doctorName {
+    font-weight: 500;
+  }
+  
+  .location {
+    color: #6c757d;
+  }
+  
+  .rating {
+    color: #f97316;
+    font-size: 18px;
+  }
+  
+
+.BodyContainer {
+    width: 100vw;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f5f7fa, #e9effa);
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    padding: 40px 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin-top: 0;
+    position: relative;
+    overflow-x: hidden;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    /* gap deh elmsafa elbyn el cards */
+    gap: 20px; 
+    justify-items: center;
+}

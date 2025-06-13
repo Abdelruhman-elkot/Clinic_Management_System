@@ -1,0 +1,11 @@
+.main {
+    background: linear-gradient(to right, #0097B8, #0084A1, #01748E, #00586B, #014C5D, #023B47) !important;
+}
+
+.seperator {
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    border: none;
+    margin-top: 60px;
+}

@@ -1,0 +1,17 @@
+/* For sender (user) */
+.cs-message.user-message .cs-message__content {
+    background-color: #014C5D !important; /* blue */
+    color: white !important;
+  }
+  
+  /* For receiver (bot) */
+  .cs-message.bot-message .cs-message__content {
+    background-color: #f0f0f0 !important; /* light gray */
+    color: black !important;
+  }
+
+  /* Change attachment button color */
+  .cs-message-input__tools .cs-button.cs-button--attachment {
+    color: #023B47 !important; 
+}
+

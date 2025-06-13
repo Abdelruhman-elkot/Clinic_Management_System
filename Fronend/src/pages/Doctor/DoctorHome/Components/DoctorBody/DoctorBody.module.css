@@ -1,0 +1,97 @@
+.tasksContainer {
+  margin-top: 30px;
+  padding: 20px 30px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; 
+  background-color: #f9f9f9; 
+  border-radius: 15px; 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+}
+
+@media (max-width: 768px) {
+  .tasksContainer {
+    flex-direction: column; 
+    align-items: center; 
+    padding: 50px;
+  }
+}
+
+.welcomeMessage {
+  margin: 40px auto 20px auto;
+  text-align: start;
+  margin-left: 20px;
+  font-size: 28px;
+  color: #004b55;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  
+}
+
+.doctorName {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 1px solid #FF7F50;
+  color: #FF7F50;
+  font-family: 'Courier New', monospace;
+  font-weight: bold;
+  vertical-align: bottom;
+  width: 0;
+  animation: typing 2s steps(var(--char-count)) infinite, blink 0.75s step-end infinite;
+}
+
+/* ba5d el char count mn folder el html mn hna */
+@supports (--custom: property) { 
+  .doctorName {
+    width: 0;
+    animation: typing 4s steps(var(--char-count), end) infinite, blink 0.75s step-end infinite;
+  }
+}
+
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: var(--name-width);
+  }
+  100% {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.middleTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin: 40px auto 30px auto;
+  width: fit-content;
+  
+}
+
+.middleTitle hr {
+  flex: 1;
+  height: 1.5px;
+  background: linear-gradient(to right, #ccc, #999, #ccc);
+  border: none;
+  min-width: 150px;
+}
+
+.chooseText {
+  font-size: 27px;
+  font-weight: 400;
+  color: #004b55;
+  font-family: 'Poppins', sans-serif;
+  white-space: nowrap;
+}
+
+

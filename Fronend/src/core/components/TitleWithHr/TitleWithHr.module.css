@@ -1,0 +1,26 @@
+.middleTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin: 40px auto 30px auto;
+    width: fit-content;
+    
+  }
+  
+  .middleTitle hr {
+    flex: 1;
+    height: 1.5px;
+    background: linear-gradient(to right, #ccc, #999, #ccc);
+    border: none;
+    min-width: 150px;
+  }
+  
+  .chooseText {
+    /* font-size: 27px; */
+    font-weight: 400;
+    color: #004b55;
+    font-family: 'Poppins', sans-serif;
+    white-space: nowrap;
+  }
+  

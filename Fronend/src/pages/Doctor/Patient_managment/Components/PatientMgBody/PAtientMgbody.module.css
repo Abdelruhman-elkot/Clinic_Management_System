@@ -1,0 +1,80 @@
+.scheduleCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 24px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, rgb(176, 212, 199), #516269);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.scheduleCard:hover {
+  transform: scale(1.05); /* Slightly enlarge the card */
+  box-shadow: 0 8px 25px rgba(0, 123, 255, 0.3); /* Add glowing shadow */
+  background: #1ca3a5; /* Popular blue color for hover */
+  color: white; /* Change text color to white */
+  transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.scheduleCard h5 {
+  font-weight: 600;
+  color: inherit; /* Use the color inherited from hover */
+}
+
+.scheduleCard p {
+  font-size: 14px;
+  color: inherit; /* Inherit color from parent on hover */
+}
+
+.medicalComplaint {
+  background-color: #e0f4ff;
+  color: #0077b6;
+  padding: 6px 12px;
+  border-radius: 16px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  white-space: nowrap;
+  text-align: right;
+  transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth transition */
+}
+
+.scheduleCard .rightSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 10px;
+  align-items: center;
+}
+
+.scheduleCard .rightSection button {
+  align-self: center;
+  transition: transform 0.3s ease, background-color 0.3s ease; /* Add transition for button effects */
+}
+
+.scheduleCard .rightSection button:hover {
+  transform: scale(1.1); /* Slightly enlarge the button */
+  background-color: #0056b3; /* Darker shade of blue for the button hover */
+  color: white; /* Change text color to white */
+}
+
+/* Add an extra animation for the text (glow effect) */
+@keyframes glow {
+  0% {
+    text-shadow: 0 0 5px rgba(0, 123, 255, 0.5), 0 0 10px rgba(0, 123, 255, 0.5);
+  }
+  50% {
+    text-shadow: 0 0 10px rgba(0, 123, 255, 0.7), 0 0 20px rgba(0, 123, 255, 0.7);
+  }
+  100% {
+    text-shadow: 0 0 5px rgba(0, 123, 255, 0.5), 0 0 10px rgba(0, 123, 255, 0.5);
+  }
+}
+
+.scheduleCard:hover h5,
+.scheduleCard:hover p {
+  animation: glow 1.5s ease-in-out infinite;
+}
+
+

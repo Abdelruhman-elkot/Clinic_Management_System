@@ -1,0 +1,46 @@
+.pageWrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.TableContainer {
+  flex: 1;
+  padding-bottom: 20px; /* give space above footer */
+}
+
+.scheduleCard {
+  background-color: #f9f9f9;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.badge {
+  padding: 6px 12px;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 0.9rem;
+}
+  
+ 
+  
+  .scheduleCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(201, 7, 7, 0.1);
+    background: linear-gradient(135deg, #5972b6, #e2e8ff);
+  }
+  
+  .scheduleCard h5 {
+    font-weight: 600;
+    color: #2d2d2d;
+  }
+  
+  .scheduleCard p {
+    font-size: 14px;
+    color: #6c757d;
+  }
+  

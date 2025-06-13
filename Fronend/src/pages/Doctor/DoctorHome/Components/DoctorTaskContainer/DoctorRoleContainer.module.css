@@ -1,0 +1,73 @@
+.container {
+    background: linear-gradient(145deg, #ffffff, #f0f0f0);
+    border-radius: 20px;
+    box-shadow:
+      8px 8px 16px rgba(0, 0, 0, 0.1),
+      -8px -8px 16px rgba(255, 255, 255, 0.8);
+    width: 240px;
+    height: 190px;
+    margin: 15px;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .container:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow:
+      0 10px 20px rgba(0, 0, 0, 0.2),
+      0 0 15px rgba(0, 173, 181, 0.4);
+    cursor: pointer;
+  }
+  
+  .title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #00787a;
+    padding-left: 5px;
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .icon {
+    font-size: 55px;
+    color: #ffaa00;
+    padding-left: 5px;
+  }
+  
+  .totalSection {
+    text-align: right;
+    padding-right: 5px;
+    color: #00787a;
+  }
+  
+  .totalLabel {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  .spacer {
+    height: 6px;
+  }
+  
+  .totalNumber {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    color: #003d40;
+  }
+  
+  /* Responsive wrapper */
+  .cardsWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  
